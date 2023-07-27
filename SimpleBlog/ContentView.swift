@@ -55,7 +55,7 @@ struct CardView: View {
         .cornerRadius(10)
         .overlay {
             RoundedRectangle(cornerRadius: 10)
-                .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.2), lineWidth: 1)
+                .stroke(.primary.opacity(0.12), lineWidth: 1)
         }
         .padding(.bottom)
     }
